@@ -1,0 +1,56 @@
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+#main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#main div {
+    margin-bottom: 10px;
+}
+
+.remove {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.number-input {
+    padding: 10px;
+    border: 1px solid grey;
+    margin-right: 15px;
+}
+
+.number-input:focus {
+    outline: 0;
+    border-color: #0019af;
+}
+
+.number-input.error {
+    border: 1px solid red;
+}
+
+#main input[type=number]:first-child {
+    margin-left: 29px;
+}
+
+input[type=button] {
+    background-color: #0019af;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#submit {
+    background-color: #4CAF50;
+}
+
+#submit:disabled {
+    background-color: grey;
+}

@@ -20,3 +20,9 @@ Response is a comma separated string with numbers replaced with fizz buzz (accor
 ```
 Fizz, Buzz, FizzBuzz, 91
 ```
+
+Simple UI to test the application
+
+```
+http://localhost:8080/
+```

@@ -37,6 +37,19 @@
 		</dependency>
 	</dependencies>
 
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ec5f53d766d3-releases</name>
+        <url>http://localhost:8081/artifactory/my-repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ec5f53d766d3-snapshots</name>
+        <url>http://localhost:8081/artifactory/my-repo</url>
+    </snapshotRepository>
+</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
